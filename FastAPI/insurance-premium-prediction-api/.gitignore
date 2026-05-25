@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Temporary files
+*.tmp
+*.temp
+
+# FastAPI specific
+uploads/
+static/uploads/
+
+# Model files (optional - remove if needed)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Hugging Face / Transformers cache
+.huggingface/
+transformers_cache/
+
+# Node modules (if frontend exists)
+node_modules/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Secrets
+secrets.json
+config.yaml
+
+# Mac/Linux hidden files
+.*.swp
